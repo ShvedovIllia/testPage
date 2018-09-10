@@ -1,0 +1,165 @@
+@charset "utf-8"
+
+*{
+	margin:0px;
+	padding:0px;
+
+}
+html {
+	height:100%;
+
+	}
+#info{
+	border: 2px solid silver;
+	border-radius: 10px;
+	height:295px;
+	margin-bottom: 5px;
+	margin-top:50px;
+	background-color: #b4b4b4;
+	padding-right:10px;
+	padding-left:10px;
+	}
+	
+
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;	
+	background-color: #989898;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%;
+	background-image: url("black.jpg");
+}
+
+
+header, footer {
+	width: 100%;
+	background-color: #fff;
+	min-height: 100px;
+	
+}
+
+header{
+	border: 2px solid silver;
+	border-radius: 10px;
+	height:100px;
+	margin-bottom: 5px;
+	width: 100%;
+	background-color: #989898;
+}
+
+h1{
+	color: #456783;
+	font-size:50px;
+	
+}
+#mainname{
+	font-size:50px;
+	padding-top:15px;
+	color: black;
+}
+
+.left {float:left;
+
+}
+.right {
+	float:right;
+	padding-right: 5px;
+
+}
+.clear {clear:both;
+
+}
+
+#menu {
+	font-size: 20px;
+	
+}
+
+#main_title {
+	margin-top: 15px;
+	font-size: 50px;
+	font-family: BenguiatGothicCTT_Bold_Italic, sans-serif;
+}
+
+#MenuHrefs a {
+	
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 5px;
+	height: 10px;
+	color: black;
+}
+
+#MenuHrefs a:hover {
+	
+	background-color: #c5c5c5;
+}
+
+/*main styles*/
+
+#wrapper{
+	float:left;
+	width:100%;
+}
+#wrapper #articles{
+	float:left;
+	width:80%;
+	margin-left:10%;
+}
+
+#wrapper #articles article{
+	
+	float:left;
+	width:31.3%;
+	border: 1px, solid, silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fafafa;
+	margin-right:2%;
+	min-height:400px;
+}
+
+/* Footers styles*/
+
+
+footer {
+	margin-top: 15px;
+	border: 2px solid silver;
+	border-radius: 10px;
+	background-color: #989898;
+}
+
+footer img {
+		width:3%;
+		float: right;
+		padding-right:10px;
+		padding-bottom: 10px;
+}
+
+#page-wrap:after {
+	content: "";
+	display: block;
+} 
+
+footer, #page-wrap:after {
+	height:10px;
+	}
+	
+#page-wrap {
+	min-height: 92%;
+	margin-bottom: -10px;
+	}
+
+a {
+	color: black;
+	text-decoration: none;
+	transition: all.6s ease;
+	font-family: "Segoe UI", sans-serif;
+}
+
+a:hover {
+	color: #666666;
+}
